@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    min-height: 100%;
+    background: #e3f2fd;
+  }
+.main{
+    background-color: rgb(255, 255, 255);
+    width: 23%;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    float: left;
+}
+.menu{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(201, 117, 117);
+  
+
+}
+.menu>strong{
+    margin-left: 10px;
+    margin-top: 10px;
+    
+
+}
+.menu>span{
+    margin-left: 10px;
+    margin-top: 10px;
+    color:rgb(255, 255, 255);
+    
+
+}
+.menu>img{
+  margin-left: 10px;
+  margin-top: 10px;
+
+
+}
+.menu:hover {
+    background-color: #000000;
+    color: #e3f2fd;
+    border-radius: 5px;
+  }
+  .menu>span:hover {
+   
+    color: #e3f2fd;
+    border-radius: 5px;
+  }
+ 
+  .intro {
+    float: left;
+    margin: 20px;
+    width: calc(40% - 40px);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #000000; /* Change to your preferred border color */
+    background-color: #ffffff; /* Change to your preferred background color */
+    height: 220px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro > h3 > span {
+    color: #000000;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    color: brown;
+
+}
+h1:hover{
+    color: black;
+}
+
+h3 {
+    padding-top: 10px;
+    margin-left: 10px;
+    color: #428bca; /* Change to your preferred heading color */
+}
